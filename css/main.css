@@ -1,0 +1,112 @@
+/****BASE STYLES*****/
+
+body{
+    font-family: 'Montserrat:wght@500';
+    color:black;
+}
+    
+/*****GRID*****/
+
+.full-width{
+    width:1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width{
+    width:600px;
+    float:left;
+}
+.third-width{
+    width:400px;
+    float:left;
+}
+/****HEADER****/
+header h1{
+    margin:30px;
+    text-transform:uppercase;
+    font-family:'Montserrat:wght@500';
+}
+header h1 span{
+    color:#77a466;
+}
+nav{
+    float:right;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    text-transform: uppercase;
+    margin:20px 0px 0px 0px;
+}
+nav ul li a{
+    color:#77a466;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+header img{
+    border:solid green;
+    position:absolute;
+}
+#About{
+margin: 300px 0px 0px 0px;
+}
+#About h2{
+    color:#77a466;
+    font-size:20px;
+    text-transform:uppercase;
+}
+#About p{
+    font-size:20px;
+}
+#Menu h3{
+    text-transform: uppercase;
+    margin:20px 0px 0px 40px;
+    font-size:15px;
+    font-weight: bold;
+}
+#Menu ul li{
+    list-style-type:none;
+    margin:15px 0px;
+    padding:5px;
+}
+#Menu ul li a{
+    color:#77a466;
+    text-decoration:none;
+}
+div .information{
+    display:inline-block;
+    margin-right:30px;
+}
+#Reviews h3{
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:bold;
+}
+#Reviews p{
+    font-size:20px;
+    margin:10px 0px 0px 10px;
+    text-align:left;
+}
+#Contact h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left:80px;
+    text-transform:uppercase;
+}
+#Contact p{
+    font-size:20px;
+    margin-left:80px;
+}
+#Footer h2{
+    font-weight:bold;
+    font-size:20px;
+    margin-top:50px;
+    text-align:center;
+    text-transform:uppercase;
+}
+#Footer em{
+    color:#77a466;
+    text-transform:lowercase;
+}
